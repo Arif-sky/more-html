@@ -1,4 +1,4 @@
-nav ul {
+nav > ul {
   display: flex;
 }
 nav li {
@@ -14,4 +14,13 @@ nav li a {
 }
 nav li a:hover {
   background-color: bisque;
+}
+.drpdown {
+  display: none;
+  position: absolute;
+  background-color: aqua;
+  padding: 10px;
+}
+nav li:hover > .drpdown {
+  display: block;
 }
