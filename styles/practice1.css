@@ -1,0 +1,17 @@
+section p,
+input {
+  display: inline;
+}
+.panda {
+  margin-top: 30px;
+}
+.feedback {
+  display: block;
+}
+.date {
+  margin-top: 10px;
+}
+textarea {
+  display: block;
+  margin-bottom: 20px;
+}
